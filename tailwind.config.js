@@ -19,14 +19,16 @@ export default {
                 }
             },
             fontFamily: {
-                // "roboto": ['Roboto', 'sans-serif'],
-                // 'mono':['Roboto Slab', 'serif']
-            },
+                'inter': ['Inter', 'sans-serif'],
+                // 'serf': ['Muli', 'serif'],
+              },
             screens: {
                 '3xl': '1880px',
             },
         },
     },
+    
+    
     // plugins: [require("tw-elements/plugin.cjs")],
     darkMode: "class"
 }
