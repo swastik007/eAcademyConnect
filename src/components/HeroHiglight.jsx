@@ -4,8 +4,8 @@ const HeroHighlightSection = () => {
    
   return (
   <div className="container mx-auto max-w-screen-xl px-4 sm:px-8">
-    <div className="relative flex bg-white">
-  <div className="rounded-lg w-full grid grid-flow-row sm:grid-flow-row grid-cols-1 sm:grid-cols-3 py-9 divide-y-2 sm:divide-y-0 sm:divide-x-2 divide-gray-100 bg-white-500 z-10">
+    <div className="relative flex ">
+  <div className="bg-white rounded-lg w-full grid grid-flow-row sm:grid-flow-row grid-cols-1 sm:grid-cols-3 py-9 divide-y-2 sm:divide-y-0 sm:divide-x-2 divide-gray-100 bg-white-500 z-10">
     <div
       className="flex items-center justify-start sm:justify-center py-4 sm:py-6 w-8/12 px-4 sm:w-auto mx-auto sm:mx-0"
       
