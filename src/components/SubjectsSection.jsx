@@ -14,7 +14,7 @@ const Subjects = () => {
                 Gaining trust of hundreds of student and parents throughout the world, we have gained experience in a wide range of industries. Realizing the need of the digital world our clients regard us as their IT partners to take care of their digital needs.
             </p>
             </div>
-            <div className="container max-w-3xl mx-auto grid grid-cols-1 gap-6 mt-12 lg:mt-16 xl:gap-10 sm:grid-cols-2 lg:grid-cols-4 p-8 lg:p-0">
+            <div className="container max-w-screen-xl mx-auto grid grid-cols-1 gap-6 mt-12 lg:mt-16 xl:gap-10 sm:grid-cols-2 lg:grid-cols-4 p-8 lg:p-0">
                 <SubjectCard title="Mathematics" icon="images/subjects/maths.png" />
                 <SubjectCard title="Science" icon="images/subjects/science.png" />
                 <SubjectCard title="Science" icon="images/subjects/business.png" />
