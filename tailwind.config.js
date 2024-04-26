@@ -2,9 +2,10 @@
 export default {
     content: [
         "./index.html",
-        "./src/**/*.{js,ts,jsx,tsx}",
+        "./src/**/*.{html,js,ts,jsx,tsx}",
         "./node_modules/tw-elements/js/**/*.js"
     ],
+   
     theme: {
         extend: {
             colors: {
@@ -29,6 +30,6 @@ export default {
     },
     
     
-    // plugins: [require("tw-elements/plugin.cjs")],
+    plugins: [require("tw-elements/plugin.cjs")],
     darkMode: "class"
 }
