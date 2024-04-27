@@ -3,10 +3,19 @@ import {motion} from 'framer-motion';
 
 const SubjectCard = ({ icon, title}) => {
     return(
-        <motion.div                   
+        <motion.div         
+            initial={{
+                scale: 1,
+                opacity: 0.8,
+                rotate: 0
+            }} 
+
             whileHover={{           
             ease: "easeOut", 
-            onDurationChange: 2,                                        
+            onDurationChange: 2,  
+            scale: 1.4,
+            opacity: 1,
+            rotate: 1.3                                      
             }}
             className="hover:text-slate-800 bg-gray-400/10 hover:bg-gradient-to-b hover:from-cyan-300 via-cyan-500 hover:to-sky-500 group " >
             <div className="overflow-hidden rounded-lg shadow-sm">
