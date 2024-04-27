@@ -11,7 +11,7 @@ const BaseNavbar = () => {
 
   return (
     <div className='relative'>
-        <div className="absolute top-0 left-0 w-full h-[100vh] sm:h-[225vh] lg:h-[125vh] cover-gradient"></div>
+        <div className="absolute top-0 left-0 w-full h-[100vh] sm:h-[500px] lg:h-[1000px] cover-gradient"></div>
         <nav id="navbar" className="relative z-10 w-full text-neutral-800">
             <div className="flex flex-col max-w-screen-xl px-8 mx-auto lg:items-center lg:justify-between lg:flex-row py-4">
                 <div className="flex flex-col lg:flex-row items-center space-x-4 xl:space-x-8 w-full">
@@ -107,8 +107,8 @@ const BaseNavbar = () => {
                             </li>
                         </ul>
                         <div className={`flex space-x-3`}>
-                            <button className="text-lg h-16 min-w-[140px] justify-center flex items-center text-center rounded-full hover:shadow-md hover:shadow-[#0c66ee]/50 transition duration-300 px-8 xl:px-6 py-2 mt-2 bg-inherit text-gradient border border-[#0c66ee]">Login</button>
-                            <button className="text-lg h-16 min-w-[140px] justify-center flex items-center text-center rounded-full hover:shadow-md hover:shadow-[#0c66ee]/50 transition duration-300 px-8 xl:px-6 py-2 mt-2 bg-gradient-to-r from-[#468ef9] to-[#0c66ee] text-white">Sign Up</button>
+                            <button className="text-lg h-12 min-w-[140px] justify-center flex items-center text-center rounded-full shadow-sm hover:shadow-md hover:shadow-[#0c66ee]/50 transition duration-300 px-8 xl:px-6 py-2 mt-2 bg-inherit text-gradient border border-[#e0e0e0] bg-gradient-to-r from-white to-gray-100">Login</button>
+                            <button className="text-lg h-12 min-w-[140px] justify-center flex items-center text-center rounded-full hover:shadow-md hover:shadow-[#0c66ee]/50 transition duration-300 px-8 xl:px-6 py-2 mt-2 bg-gradient-to-r from-sky-300 to-sky-600 text-white">Sign Up</button>
                         </div>
                     </div>
                 

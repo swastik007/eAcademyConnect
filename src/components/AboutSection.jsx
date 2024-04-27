@@ -43,88 +43,19 @@ const AboutSection = () => {
                 <div className="space-y-6 sm:space-y-8">
                 {/* Title */}
                 <div className="space-y-2 md:space-y-4">
-                    <h2 className="font-bold text-3xl lg:text-4xl text-gray-800 dark:text-gray-200">
-                    Collaborative tools to design user experience
+                    <h2 className="capitalize font-bold text-3xl lg:text-5xl text-gray-800 dark:text-gray-200">
+                    immersive and engaging experience learning experience
                     </h2>
                     <p className="text-gray-500">
-                    Use our tools to explore your ideas and make your vision come
-                    true. Then share your work easily.
+                    Introducing "Hamro Classroom" – your ultimate companion on the journey to academic excellence. Designed with innovation and creativity at its core, Hamro Classroom is not just another educational app; it's a powerful tool crafted to empower students in their quest to learn, understand, and conquer exams.
+<br/><br/>
+With Hamro Classroom, learning becomes an immersive and engaging experience. Say goodbye to tedious study sessions and hello to dynamic, interactive lessons tailored to suit your individual learning style. Whether you're preparing for standardized tests, school exams, or university entrance assessments, our app is here to guide you every step of the way.
+
+
                     </p>
                 </div>
                 {/* End Title */}
-                {/* List */}
-                <ul className="space-y-2 sm:space-y-4">
-                    <li className="flex space-x-3">
-                    {/* Solid Check */}
-                    <span className="mt-0.5 size-5 flex justify-center items-center rounded-full bg-blue-50 text-blue-600 dark:bg-blue-800/30 dark:text-blue-500">
-                        <svg
-                        className="flex-shrink-0 size-3.5"
-                        xmlns="http://www.w3.org/2000/svg"
-                        width={24}
-                        height={24}
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        stroke="currentColor"
-                        strokeWidth={2}
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        >
-                        <polyline points="20 6 9 17 4 12" />
-                        </svg>
-                    </span>
-                    {/* End Solid Check */}
-                    <span className="text-sm sm:text-base text-gray-500">
-                        <span className="font-bold">Less routine</span> – more
-                        creativity
-                    </span>
-                    </li>
-                    <li className="flex space-x-3">
-                    {/* Solid Check */}
-                    <span className="mt-0.5 size-5 flex justify-center items-center rounded-full bg-blue-50 text-blue-600 dark:bg-blue-800/30 dark:text-blue-500">
-                        <svg
-                        className="flex-shrink-0 size-3.5"
-                        xmlns="http://www.w3.org/2000/svg"
-                        width={24}
-                        height={24}
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        stroke="currentColor"
-                        strokeWidth={2}
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        >
-                        <polyline points="20 6 9 17 4 12" />
-                        </svg>
-                    </span>
-                    {/* End Solid Check */}
-                    <span className="text-sm sm:text-base text-gray-500">
-                        Hundreds of thousands saved
-                    </span>
-                    </li>
-                    <li className="flex space-x-3">
-                    {/* Solid Check */}
-                    <span className="mt-0.5 size-5 flex justify-center items-center rounded-full bg-blue-50 text-blue-600 dark:bg-blue-800/30 dark:text-blue-500">
-                        <svg
-                        className="flex-shrink-0 size-3.5"
-                        xmlns="http://www.w3.org/2000/svg"
-                        width={24}
-                        height={24}
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        stroke="currentColor"
-                        strokeWidth={2}
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        >
-                        <polyline points="20 6 9 17 4 12" />
-                        </svg>
-                    </span>
-                    {/* End Solid Check */}
-                    <span className="text-sm sm:text-base text-gray-500">
-                        Scale budgets <span className="font-bold">efficiently</span>
-                    </span>
-                    </li>
-                </ul>
+               
                 {/* End List */}
                 </div>
             </div>
@@ -133,6 +64,50 @@ const AboutSection = () => {
             {/* End Grid */}
         </div>
         {/* End Features */}
+        <div className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
+             {/* List */}
+             <ul className="grid lg:grid-cols-3 gap-4">
+                    <li className="flex space-x-3">
+                    {/* Solid Check */}
+                    <span className="mt-0.5 lg:mt-0 size-5 flex justify-center items-center rounded-full text-sky-500 mr-3">
+                    <i className="bi bi-check-circle-fill text-5xl mt-5 "></i>
+                    </span>
+                    {/* End Solid Check */}
+                    <p className="flex flex-col font-light text-stone-800 text-base leading-2 tracking-wide ">
+                    <span className="text-3xl capitalize font-medium text-primary">
+                   more than just a study aid
+                    </span>
+                    it's a supportive community where students can connect, collaborate, and learn from one another. Share insights, ask questions, and receive guidance from peers and mentors who are just as passionate about academic success as you are.
+</p>
+                    </li>
+                    <li className="flex space-x-3">
+                    {/* Solid Check */}
+                    <span className="mt-0.5 lg:mt-0 size-5 flex justify-center items-center rounded-full text-sky-500 mr-3">
+                    <i className="bi bi-check-circle-fill text-5xl mt-5 "></i>
+                    </span>
+                    {/* End Solid Check */}
+                   
+                    <p className="flex flex-col font-light text-stone-800 text-base leading-2 tracking-wide ">
+                    <span className="text-3xl capitalize font-medium text-primary">
+                    ace your exams 
+                    </span>
+Hamro Classroom is your trusted partner in education. Join us today and unlock a world of endless learning possibilities. Welcome to the future of academic excellence. Welcome to Hamro Classroom.
+</p>
+                    </li>
+                    <li className="flex space-x-3">
+                    {/* Solid Check */}
+                    <span className="mt-0.5 size-5 flex justify-center items-center rounded-full text-sky-500 mr-3">
+                    <i className="bi bi-check-circle-fill text-5xl mt-5 "></i>
+                    </span>
+                    {/* End Solid Check */}
+                    <p className="flex flex-col font-light text-stone-800 text-base leading-2 tracking-wide ">
+                    <span className="text-3xl capitalize font-medium text-primary">
+                        What Sets Us Apart
+                    </span>From detailed study materials to practice quizzes and real-time feedback, everything you need to grasp even the most challenging concepts with confidence. Our intuitive interface makes navigating through subjects effortless, allowing you to master the material.
+</p>
+                    </li>
+                </ul>
+        </div>
         </>
     );
 };

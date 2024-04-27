@@ -18,12 +18,13 @@ function App() {
     <>
       <BaseNavbar />
       <BannerSection />
-      <InfiniteMovingCardsDemo />
+     
       <HeroHighlightSection />
+      <AboutSection />
       <HeroSection/>
       <Subjects />
       <Testimonials />
-      <AboutSection />
+      
       <VideoSection />
       <PricingSection />
       <Footer />
