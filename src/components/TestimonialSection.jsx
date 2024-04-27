@@ -76,7 +76,7 @@ const Testimonials = () => {
                       <p className="leading-normal text-gray-300 text-md">
                         Diam quis enim lobortis scelerisque fermentum dui faucibus in
                         ornare. Donec pretium vulputate sapien nec sagittis aliquam
-                        malesuada bibendum.
+                        malesuada bibendum. why?
                       </p>
                     </div>
                   </a>
