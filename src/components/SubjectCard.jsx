@@ -4,23 +4,20 @@ import {motion} from 'framer-motion';
 const SubjectCard = ({ icon, title}) => {
     return(
         <motion.div                   
-            whileHover={{
-            scale: 1.01,
-            rotate: -1,      
+            whileHover={{           
             ease: "easeOut", 
-            onDurationChange: 2,
-            borderRadius: 10,                                              
+            onDurationChange: 2,                                        
             }}
-            className="hover:text-slate-800 bg-gray-400/10 hover:bg-gradient-to-r hover:from-cyan-500 hover:to-blue-500 group " >
-            <div className="overflow-hidden backdrop-blur-sm rounded-lg shadow">
+            className="hover:text-slate-800 bg-gray-400/10 hover:bg-gradient-to-b hover:from-cyan-300 via-cyan-500 hover:to-sky-500 group " >
+            <div className="overflow-hidden rounded-lg shadow-sm">
                 <div className="px-4 py-8">
-                    <div className="flex items-center">
-                        <div className="w-2/5 relative flex items-center justify-center mx-auto  group-hover:invert-0">
-                            <img alt="" className="w-12 h-12 object-contain group-hover:bg-white rounded-full" src={icon} />
+                    <div className="flex flex-col items-center">
+                        <div className="w-full relative flex items-center justify-center mx-auto  group-hover:invert-0">
+                            <img alt="" className="w-20 h-20 object-contain group-hover:bg-white rounded-full" src={icon} />
                         </div>
 
-                        <div className="ml-5 mr-auto w-3/5">
-                            <p className="text-lg font-semibold leading-tight group-hover:text-white">{title}</p>
+                        <div className="mx-auto text-center w-full">
+                            <p className="text-lg font-base tracking-wider group-hover:text-white">{title}</p>
                         </div>
                     </div>
                 </div>

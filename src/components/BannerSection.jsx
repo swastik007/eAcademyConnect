@@ -88,6 +88,34 @@ const BannerSection = () => {
             className="mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-white bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none"
             aria-label="Slide 3"
           />
+           <button
+            type="button"
+            data-twe-target="#carouselExampleCrossfade"
+            data-twe-slide-to={3}
+            className="mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-white bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none"
+            aria-label="Slide 4"
+          />
+          <button
+            type="button"
+            data-twe-target="#carouselExampleCrossfade"
+            data-twe-slide-to={4}
+            className="mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-white bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none"
+            aria-label="Slide 5"
+          />
+          <button
+            type="button"
+            data-twe-target="#carouselExampleCrossfade"
+            data-twe-slide-to={5}
+            className="mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-white bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none"
+            aria-label="Slide 6"
+          />
+           <button
+            type="button"
+            data-twe-target="#carouselExampleCrossfade"
+            data-twe-slide-to={6}
+            className="mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-white bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none"
+            aria-label="Slide 7"
+          />
         </div>
         {/*Carousel items*/}
         <div className="relative w-full overflow-hidden after:clear-both after:block after:content-['']">
@@ -102,32 +130,18 @@ const BannerSection = () => {
               <div className="w-100 mx-auto sm:max-w-2xl md:max-w-3xl lg:max-w-5xl xl:max-w-7xl">
                 <div className="grid items-center gap-12 lg:grid-cols-2">
                   <div className="mt-12 lg:mt-0">
-                    <h1 className="mb-16 text-5xl font-bold tracking-tight md:text-6xl xl:text-7xl">
-                      The best offer <br />
-                      <span className="text-primary">for your business</span>
+                   
+                   
+                    <h1 className="mb-16 font-semibold tracking-tight text-xl md:text-2xl xl:text-3xl text-cyan-700">
+
+                    Exam Success Simplified <br />
+                      <p className="text-primary from-sky-400 to-sky-800 bg-gradient-to-r bg-clip-text text-transparent text-5xl md:text-6xl xl:text-7xl">Ace Every Subject with Model Set Solutions</p>
                     </h1>
-                    <a
-                      className="mb-2 inline-block rounded bg-primary px-12 pt-4 pb-3.5 text-sm font-medium uppercase leading-normal text-white shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:bg-primary-600 hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:bg-primary-600 focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:outline-none focus:ring-0 active:bg-primary-700 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] dark:shadow-[0_4px_9px_-4px_rgba(59,113,202,0.5)] dark:hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] md:mr-2 md:mb-0"
-                      data-te-ripple-init=""
-                      data-te-ripple-color="light"
-                      href="#!"
-                      role="button"
-                    >
-                      Get started
-                    </a>
-                    <a
-                      className="inline-block rounded px-12 pt-4 pb-3.5 text-sm font-medium uppercase leading-normal text-primary transition duration-150 ease-in-out hover:bg-neutral-500 hover:bg-opacity-10 hover:text-primary-600 focus:text-primary-600 focus:outline-none focus:ring-0 active:text-primary-700 dark:hover:bg-neutral-700 dark:hover:bg-opacity-60"
-                      data-te-ripple-init=""
-                      data-te-ripple-color="light"
-                      href="#!"
-                      role="button"
-                    >
-                      Learn more
-                    </a>
+                   
                   </div>
                   <div className="mb-12 lg:mb-0">
                     <img
-                      src="/images/pics/16.png"
+                      src="/images/banners/pic (1).png"
                       className="w-full rounded-lg shadow-lg dark:shadow-black/20"
                       alt=""
                     />
@@ -146,32 +160,16 @@ const BannerSection = () => {
               <div className="w-100 mx-auto sm:max-w-2xl md:max-w-3xl lg:max-w-5xl xl:max-w-7xl">
                 <div className="grid items-center gap-12 lg:grid-cols-2">
                   <div className="mt-12 lg:mt-0">
-                    <h1 className="mb-16 text-5xl font-bold tracking-tight md:text-6xl xl:text-7xl">
-                      The best offer <br />
-                      <span className="text-primary">for your business</span>
+                    <h1 className="mb-16 font-semibold tracking-tight text-xl md:text-2xl xl:text-3xl text-cyan-700">
+
+                    Unleash Academic Excellence<br />
+                      <p className="text-primary from-sky-400 to-sky-800 bg-gradient-to-r bg-clip-text text-transparent text-5xl md:text-6xl xl:text-7xl">Unlock Past Paper Solutions from Past to Present</p>
                     </h1>
-                    <a
-                      className="mb-2 inline-block rounded bg-primary px-12 pt-4 pb-3.5 text-sm font-medium uppercase leading-normal text-white shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:bg-primary-600 hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:bg-primary-600 focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:outline-none focus:ring-0 active:bg-primary-700 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] dark:shadow-[0_4px_9px_-4px_rgba(59,113,202,0.5)] dark:hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] md:mr-2 md:mb-0"
-                      data-te-ripple-init=""
-                      data-te-ripple-color="light"
-                      href="#!"
-                      role="button"
-                    >
-                      Get started
-                    </a>
-                    <a
-                      className="inline-block rounded px-12 pt-4 pb-3.5 text-sm font-medium uppercase leading-normal text-primary transition duration-150 ease-in-out hover:bg-neutral-500 hover:bg-opacity-10 hover:text-primary-600 focus:text-primary-600 focus:outline-none focus:ring-0 active:text-primary-700 dark:hover:bg-neutral-700 dark:hover:bg-opacity-60"
-                      data-te-ripple-init=""
-                      data-te-ripple-color="light"
-                      href="#!"
-                      role="button"
-                    >
-                      Learn more
-                    </a>
+                    
                   </div>
                   <div className="mb-12 lg:mb-0">
                     <img
-                      src="/images/pics/17.png"
+                      src="/images/banners/banner02.png"
                       className="w-full rounded-lg shadow-lg dark:shadow-black/20"
                       alt=""
                     />
@@ -190,28 +188,96 @@ const BannerSection = () => {
               <div className="w-100 mx-auto sm:max-w-2xl md:max-w-3xl lg:max-w-5xl xl:max-w-7xl">
                 <div className="grid items-center gap-12 lg:grid-cols-2">
                   <div className="mt-12 lg:mt-0">
-                    <h1 className="mb-16 text-5xl font-bold tracking-tight md:text-6xl xl:text-7xl">
-                      The best offer <br />
-                      <span className="text-primary">for your business</span>
+                    <h1 className="mb-16 font-semibold tracking-tight text-xl md:text-2xl xl:text-3xl text-cyan-700">
+
+                    Power of Search <br />
+                      <p className="text-primary from-sky-400 to-sky-800 bg-gradient-to-r bg-clip-text text-transparent text-5xl md:text-6xl xl:text-7xl">Explore Everything, Get Instant Answers</p>
                     </h1>
-                    <a
-                      className="mb-2 inline-block rounded bg-primary px-12 pt-4 pb-3.5 text-sm font-medium uppercase leading-normal text-white shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:bg-primary-600 hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:bg-primary-600 focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:outline-none focus:ring-0 active:bg-primary-700 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] dark:shadow-[0_4px_9px_-4px_rgba(59,113,202,0.5)] dark:hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] md:mr-2 md:mb-0"
-                      data-te-ripple-init=""
-                      data-te-ripple-color="light"
-                      href="#!"
-                      role="button"
-                    >
-                      Get started
-                    </a>
-                    <a
-                      className="inline-block rounded px-12 pt-4 pb-3.5 text-sm font-medium uppercase leading-normal text-primary transition duration-150 ease-in-out hover:bg-neutral-500 hover:bg-opacity-10 hover:text-primary-600 focus:text-primary-600 focus:outline-none focus:ring-0 active:text-primary-700 dark:hover:bg-neutral-700 dark:hover:bg-opacity-60"
-                      data-te-ripple-init=""
-                      data-te-ripple-color="light"
-                      href="#!"
-                      role="button"
-                    >
-                      Learn more
-                    </a>
+                    
+                  </div>
+                  <div className="mb-12 lg:mb-0">
+                    <img
+                      src="/images/banners/banner0.png"
+                      className="w-full rounded-lg shadow-lg dark:shadow-black/20"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          {/*Fourth item*/}
+          <div
+            className="relative float-left -mr-[100%] hidden w-full !transform-none opacity-0 transition-opacity duration-[600ms] ease-in-out motion-reduce:transition-none"
+            data-twe-carousel-fade=""
+            data-twe-carousel-item=""
+          >
+            <div className="px-6 py-12 text-center md:px-12 lg:my-12 lg:text-left">
+              <div className="w-100 mx-auto sm:max-w-2xl md:max-w-3xl lg:max-w-5xl xl:max-w-7xl">
+                <div className="grid items-center gap-12 lg:grid-cols-2">
+                  <div className="mt-12 lg:mt-0">
+                    <h1 className="mb-16 font-semibold tracking-tight text-xl md:text-2xl xl:text-3xl text-cyan-700">
+
+                    Forum Q/A  <br />
+                      <p className="text-primary from-sky-400 to-sky-800 bg-gradient-to-r bg-clip-text text-transparent text-5xl md:text-6xl xl:text-7xl">Clear doubts with Peer and Teacher Guidance</p>
+                    </h1>
+                    
+                  </div>
+                  <div className="mb-12 lg:mb-0">
+                    <img
+                      src="/images/banners/banner03.png"
+                      className="w-full rounded-lg shadow-lg dark:shadow-black/20"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          {/*Fifth item*/}
+          <div
+            className="relative float-left -mr-[100%] hidden w-full !transform-none opacity-0 transition-opacity duration-[600ms] ease-in-out motion-reduce:transition-none"
+            data-twe-carousel-fade=""
+            data-twe-carousel-item=""
+          >
+            <div className="px-6 py-12 text-center md:px-12 lg:my-12 lg:text-left">
+              <div className="w-100 mx-auto sm:max-w-2xl md:max-w-3xl lg:max-w-5xl xl:max-w-7xl">
+                <div className="grid items-center gap-12 lg:grid-cols-2">
+                  <div className="mt-12 lg:mt-0">
+                    <h1 className="mb-16 font-semibold tracking-tight text-xl md:text-2xl xl:text-3xl text-cyan-700">
+
+                      Personalized Learning <br />
+                      <p className="text-primary from-sky-400 to-sky-800 bg-gradient-to-r bg-clip-text text-transparent text-5xl md:text-6xl xl:text-7xl">Unlock Personalized Guidance & Your Unique Dashboard</p>
+                    </h1>
+                    
+                  </div>
+                  <div className="mb-12 lg:mb-0">
+                    <img
+                      src="/images/banners/banner04.png"
+                      className="w-full rounded-lg shadow-lg dark:shadow-black/20"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          {/*Sixth item*/}
+          <div
+            className="relative float-left -mr-[100%] hidden w-full !transform-none opacity-0 transition-opacity duration-[600ms] ease-in-out motion-reduce:transition-none"
+            data-twe-carousel-fade=""
+            data-twe-carousel-item=""
+          >
+            <div className="px-6 py-12 text-center md:px-12 lg:my-12 lg:text-left">
+              <div className="w-100 mx-auto sm:max-w-2xl md:max-w-3xl lg:max-w-5xl xl:max-w-7xl">
+                <div className="grid items-center gap-12 lg:grid-cols-2">
+                  <div className="mt-12 lg:mt-0">
+                    <h1 className="mb-16 font-semibold tracking-tight text-xl md:text-2xl xl:text-3xl text-cyan-700">
+
+                    Discover your peers<br />
+                      <p className="text-primary from-sky-400 to-sky-800 bg-gradient-to-r bg-clip-text text-transparent text-5xl md:text-6xl xl:text-7xl">Unlock Connections with Classmates, Friends, and Mentors</p>
+                    </h1>
+                    
                   </div>
                   <div className="mb-12 lg:mb-0">
                     <img

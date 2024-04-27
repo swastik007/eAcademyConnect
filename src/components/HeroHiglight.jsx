@@ -31,7 +31,7 @@ const HeroHighlightSection = () => {
         </div>
         <div className="flex flex-col">
           <p className="text-xl text-black-600 font-bold">390{/* */}+</p>
-          <p className="text-lg text-black-500">Users</p>
+          <p className="text-lg text-black-500">Students</p>
         </div>
       </div>
     </div>
@@ -45,7 +45,7 @@ const HeroHighlightSection = () => {
         </div>
         <div className="flex flex-col">
           <p className="text-xl text-black-600 font-bold">20{/* */}+</p>
-          <p className="text-lg text-black-500">Locations</p>
+          <p className="text-lg text-black-500">Features</p>
         </div>
       </div>
     </div>
@@ -59,7 +59,7 @@ const HeroHighlightSection = () => {
         </div>
         <div className="flex flex-col">
           <p className="text-xl text-black-600 font-bold">50{/* */}+</p>
-          <p className="text-lg text-black-500">Server</p>
+          <p className="text-lg text-black-500">Model Questionnaries</p>
         </div>
       </div>
     </div>

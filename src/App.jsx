@@ -18,6 +18,7 @@ function App() {
       <BaseNavbar />
       <BannerSection />
       <HeroHighlightSection />
+      <HeroSection/>
       <Subjects />
       <Testimonials />
       <AboutSection />
