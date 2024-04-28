@@ -11,6 +11,7 @@ import Subjects from './components/SubjectsSection.jsx';
 import Testimonials from './components/TestimonialSection.jsx';
 import BannerSection from './components/BannerSection.jsx';
 import { InfiniteMovingCardsDemo } from './components/TestimonialSlider.jsx';
+/* test comment */
 function App() {
   const [count, setCount] = useState(0)
 
