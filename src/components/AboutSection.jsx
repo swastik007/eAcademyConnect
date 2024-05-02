@@ -70,25 +70,25 @@ With Hamro Classroom, learning becomes an immersive and engaging experience. Say
                     <li className="flex space-x-3">
                     {/* Solid Check */}
                     <span className="mt-0.5 lg:mt-0 size-5 flex justify-center items-center rounded-full text-sky-500 mr-3">
-                    <i className="bi bi-check-circle-fill text-5xl mt-5 "></i>
+                    <i className="bi bi-check-circle-fill text-3xl mt-5 "></i>
                     </span>
                     {/* End Solid Check */}
-                    <p className="flex flex-col font-light text-stone-800 text-base leading-2 tracking-wide ">
-                    <span className="text-3xl capitalize font-medium text-primary">
+                    <p className="flex flex-col font-normal text-stone-700 text-base leading-1 tracking-wide ">
+                    <span className="text-2xl capitalize font-semibold tracking-tight text-primary mb-2">
                    more than just a study aid
                     </span>
-                    it's a supportive community where students can connect, collaborate, and learn from one another. Share insights, ask questions, and receive guidance from peers and mentors who are just as passionate about academic success as you are.
+                    It's a supportive community where students can connect, collaborate, and learn from one another. Share insights, ask questions, and receive guidance from peers and mentors who are just as passionate about academic success as you are.
 </p>
                     </li>
                     <li className="flex space-x-3">
                     {/* Solid Check */}
                     <span className="mt-0.5 lg:mt-0 size-5 flex justify-center items-center rounded-full text-sky-500 mr-3">
-                    <i className="bi bi-check-circle-fill text-5xl mt-5 "></i>
+                    <i className="bi bi-check-circle-fill text-3xl mt-5 "></i>
                     </span>
                     {/* End Solid Check */}
                    
-                    <p className="flex flex-col font-light text-stone-800 text-base leading-2 tracking-wide ">
-                    <span className="text-3xl capitalize font-medium text-primary">
+                    <p className="flex flex-col font-normal text-stone-700 text-base leading-1 tracking-wide ">
+                    <span className="text-2xl capitalize font-semibold tracking-tight text-primary mb-2">
                     ace your exams 
                     </span>
 Hamro Classroom is your trusted partner in education. Join us today and unlock a world of endless learning possibilities. Welcome to the future of academic excellence. Welcome to Hamro Classroom.
@@ -97,11 +97,11 @@ Hamro Classroom is your trusted partner in education. Join us today and unlock a
                     <li className="flex space-x-3">
                     {/* Solid Check */}
                     <span className="mt-0.5 size-5 flex justify-center items-center rounded-full text-sky-500 mr-3">
-                    <i className="bi bi-check-circle-fill text-5xl mt-5 "></i>
+                    <i className="bi bi-check-circle-fill text-3xl mt-5 "></i>
                     </span>
                     {/* End Solid Check */}
-                    <p className="flex flex-col font-light text-stone-800 text-base leading-2 tracking-wide ">
-                    <span className="text-3xl capitalize font-medium text-primary">
+                    <p className="flex flex-col font-normal text-stone-700 text-base leading-1 tracking-wide ">
+                    <span className="text-2xl capitalize font-semibold tracking-tight text-primary mb-2">
                         What Sets Us Apart
                     </span>From detailed study materials to practice quizzes and real-time feedback, everything you need to grasp even the most challenging concepts with confidence. Our intuitive interface makes navigating through subjects effortless, allowing you to master the material.
 </p>
