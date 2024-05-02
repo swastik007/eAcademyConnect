@@ -22,6 +22,13 @@ const Testimonials = () => {
               </p>
             </div>
           </div>
+          <div className="mockup-phone">
+            <div className="camera"></div> 
+            <div className="display">
+              <div className="artboard artboard-demo phone-1">Hi.</div>
+              
+            </div>
+          </div>
           <InfiniteMovingCards
               items={testimonials}
               direction="right"
