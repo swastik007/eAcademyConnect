@@ -25,9 +25,6 @@ function App() {
       <HeroSection/>
       <Subjects />
       <Testimonials />
-      
-      <VideoSection />
-      <PricingSection />
       <Footer />
     </>
   )
