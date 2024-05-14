@@ -11,6 +11,9 @@ import Subjects from './components/SubjectsSection.jsx';
 import Testimonials from './components/TestimonialSection.jsx';
 import BannerSection from './components/BannerSection.jsx';
 import { InfiniteMovingCardsDemo } from './components/TestimonialSlider.jsx';
+import CTASection from './components/AppDownloadSection.jsx';
+import FeaturesSection from './components/FeaturesSection.jsx';
+/* test comment */
 function App() {
   const [count, setCount] = useState(0)
 
@@ -18,15 +21,13 @@ function App() {
     <>
       <BaseNavbar />
       <BannerSection />
-     
       <HeroHighlightSection />
       <AboutSection />
       <HeroSection/>
+      <FeaturesSection />
       <Subjects />
       <Testimonials />
-      
-      <VideoSection />
-      <PricingSection />
+      <CTASection />
       <Footer />
     </>
   )

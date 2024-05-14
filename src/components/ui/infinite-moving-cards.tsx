@@ -14,7 +14,7 @@ export const InfiniteMovingCards = ({
     quote: string;
     name: string;
     title: string;
-    img: string;
+    image: string;
   }[];
   direction?: "left" | "right";
   speed?: "fast" | "normal" | "slow";
@@ -62,11 +62,11 @@ export const InfiniteMovingCards = ({
   const getSpeed = () => {
     if (containerRef.current) {
       if (speed === "fast") {
-        containerRef.current.style.setProperty("--animation-duration", "80s");
+        containerRef.current.style.setProperty("--animation-duration", "20s");
       } else if (speed === "normal") {
-        containerRef.current.style.setProperty("--animation-duration", "140s");
+        containerRef.current.style.setProperty("--animation-duration", "40s");
       } else {
-        containerRef.current.style.setProperty("--animation-duration", "280s");
+        containerRef.current.style.setProperty("--animation-duration", "80s");
       }
     }
   };
@@ -88,34 +88,41 @@ export const InfiniteMovingCards = ({
       >
         {items.map((item, idx) => (
           <li
-            className="w-[350px] max-w-full relative rounded-2xl border border-b-0 flex-shrink-0 border-slate-700 px-8 py-6 md:w-[450px] rounded-xl bg-slate-100 ring-1 ring-gray-900/5"
+            className="w-[350px] max-w-full relative rounded-2xl border border-b-0 flex-shrink-0 border-slate-700 px-8 py-6 md:w-[450px]"
             style={{
               background:
                 "linear-gradient(180deg, var(--slate-800), var(--slate-900)",
             }}
             key={item.name}
-          >        
-              <div className="relative p-6 space-y-6 leading-none rounded-xl bg-slate-100 ring-1 ring-gray-900/5">
-                <div className="flex items-center space-x-4">
-                  <img
-                    src={item.img}
-                    className="w-12 h-12 bg-center bg-cover border rounded-full"
-                    alt={item.title}
-                  />
-                  <div>
-                    <h3 className="text-lg font-semibold text-slate-700">
-                    {item.name}
-                    </h3>
-                    <p className="text-gray-500 text-md">
-                    {item.title}
-                    </p>
-                  </div>
-                </div>
-                <p className="leading-normal text-stone-700 text-md">
+          >
+            <blockquote>
+              <div
+                aria-hidden="true"
+                className="user-select-none -z-1 pointer-events-none absolute -left-0.5 -top-0.5 h-[calc(100%_+_4px)] w-[calc(100%_+_4px)]"
+              ></div>
+              <span className=" relative z-20 text-sm leading-[1.6] text-gray-100 font-normal">
                 {item.quote}
-                </p>
+              </span>
+              <div className="relative z-20 mt-6 flex flex-row items-center">
+                <span className="flex flex-col gap-1">
+                      <div className="flex items-center space-x-4">
+                        <img
+                          src={item.image}
+                          className="w-12 h-12 object-cover bg-center bg-cover border rounded-full"
+                          alt={item.name}
+                        />
+                        <div>
+                          <h3 className="text-lg font-semibold text-white">
+                          {item.name}
+                          </h3>
+                          <p className="text-gray-500 text-md">
+                          {item.title}
+                          </p>
+                        </div>
+                      </div>
+                </span>
               </div>
-             
+            </blockquote>
           </li>
         ))}
       </ul>
