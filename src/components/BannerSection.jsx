@@ -141,7 +141,7 @@ const BannerSection = () => {
                   </div>
                   <div className="mb-12 lg:mb-0">
                     <img
-                      src="/images/banners/pic (1).png"
+                      src="/images/banners/banner21.png"
                       className="w-full rounded-lg shadow-lg dark:shadow-black/20"
                       alt=""
                     />
@@ -225,7 +225,7 @@ const BannerSection = () => {
                   </div>
                   <div className="mb-12 lg:mb-0">
                     <img
-                      src="/images/banners/banner03.png"
+                      src="/images/banners/banner19.png"
                       className="w-full rounded-lg shadow-lg dark:shadow-black/20"
                       alt=""
                     />
@@ -253,7 +253,7 @@ const BannerSection = () => {
                   </div>
                   <div className="mb-12 lg:mb-0">
                     <img
-                      src="/images/banners/banner04.png"
+                      src="/images/banners/banner19.png"
                       className="w-full rounded-lg shadow-lg dark:shadow-black/20"
                       alt=""
                     />
@@ -281,8 +281,7 @@ const BannerSection = () => {
                   </div>
                   <div className="mb-12 lg:mb-0">
                     <img
-                      src="/images/pics/18.png"
-                      className="w-full rounded-lg shadow-lg dark:shadow-black/20"
+                      src="/images/banners/banner14.png"                     className="w-full rounded-lg shadow-lg dark:shadow-black/20"
                       alt=""
                     />
                   </div>
